@@ -1,17 +1,11 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Login from './pages/Login';
-import Dashboard from './pages/Dashbord';
-import Cadastro from './pages/Cadastro'; // Importando a página de Cadastro
+import React from 'react';
+import Auth from './pages/Auth'; // Certifique-se que o caminho está certo
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/cadastro" element={<Cadastro />} /> {/* Rota para o cadastro */}
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <Auth />
+    </div>
   );
 }
 
