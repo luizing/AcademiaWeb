@@ -1,68 +1,62 @@
 .exercise-item {
-    background-color: #f9f9f9;
-    padding: 15px 25px;
-    border-radius: 12px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-    max-width: 600px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .exercise-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .exercise-title {
-    font-size: 18px;
-    font-weight: 600;
-  }
-  
-  .exercise-buttons {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .exercise-buttons button {
-    background-color: #1E90FF;
-    color: white;
-    border: none;
-    padding: 6px 14px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-  }
-  
-  .exercise-buttons button:hover {
-    background-color: #187bcd;
-  }
-  
-  .exercise-type {
-    font-size: 14px;
-    color: #666;
-  }
-  
-  .exercise-stats {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    color: #333;
-  }
-  
-  .exercise-type {
-    font-size: 14px;
-    color: #666;
-  }
-  
-  .exercise-stats {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    color: #333;
-    margin-top: 8px; /* <-- Espaço que cria a "quebra de linha" */
-  }
-  
+  background-color: #fff;
+  padding: 18px 24px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exercise-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.exercise-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+.exercise-type {
+  font-size: 14px;
+  color: #666;
+  margin-left: 2px;
+}
+
+.exercise-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #444;
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+  margin-top: 6px;
+}
+
+.exercise-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.exercise-buttons button {
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.exercise-buttons button:hover {
+  background-color: #187bcd;
+}
