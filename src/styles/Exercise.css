@@ -1,0 +1,73 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento vertical entre os exercícios */
+    align-items: center; /* Centraliza os itens horizontalmente */
+  }
+  
+  .exercise-item {
+    background-color: #f9f9f9;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    width: 100%;  /* para o max-width do ul funcionar */
+    max-width: 600px;
+  
+    display: flex;
+    justify-content: space-between; /* Espaça conteúdo e botões */
+    align-items: center;
+  }
+  
+  .exercise-info {
+    /* texto do exercício */
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .exercise-buttons {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+  }
+  
+  .exercise-buttons button {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exercise-buttons button:hover {
+    background-color: #187bcd;
+  }
+  
+  ul.exercise-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .exercise-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento vertical entre os exercícios */
+    align-items: center; /* Centraliza os itens horizontalmente */
+  }
+  
